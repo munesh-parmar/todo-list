@@ -1,0 +1,85 @@
+body {
+  margin: 0; 
+}
+.App {
+  text-align: center;
+  height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  background-image: url("../src/cover.jpg"); 
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  
+}
+
+h1 {
+  color: #333;
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #ccc;
+  background-color: #f5f5f5;
+  padding: 20px;
+  max-width: 300px;
+  width: 100%;
+  max-height: 300px; 
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-left: 450px;
+  height: 100vh;
+}
+.myText{
+  margin-left: 74vh;
+  color: #A2FF00   ;
+  margin-top: 60px;
+}
+
+.task-form {
+  text-align: center; 
+  margin-bottom: 10px;
+  
+  
+}
+
+input[type="text"] {
+  height: 30px; 
+  margin-right: 10px; 
+}
+
+button {
+  height: 34px;
+  width: 70px;
+  background-color: #6A79F3  ;
+  border: none;
+  color: white;
+}
+.bold-button{
+  font-weight: 1100;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: 5px;
+  width: 100%; 
+  cursor: pointer; 
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.task-delete {
+  cursor: pointer;
+  color: #ff0000;
+}
